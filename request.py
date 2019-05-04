@@ -2,8 +2,9 @@ from os.path import join
 import imageio
 import requests
 from model import resize_dec
-url = 'http://localhost:5000/api'
 
+url = 'http://localhost:5000/api'
+url = 'https://robotorientationrest.herokuapp.com/api'
 
 @resize_dec
 def send(img, url):

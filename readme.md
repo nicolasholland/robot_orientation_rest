@@ -13,10 +13,15 @@ The model.pkl was created by the model.py
 
 The images folder contains images used for model training.
 
-We learned how to deploy an application on heroku from [here](https://barnesanalytics.com/publishing-a-bokeh-app-to-heroku).
 
 Server can be started with
 
 ```
 $ FLASK_APP=server.py flask run --port $PORT
 ```
+
+We had the idea to run this on heroku after reading [this](https://barnesanalytics.com/publishing-a-bokeh-app-to-heroku).
+First thing we learned was we need something called gunicorn.
+
+Rest api is available on [https://robotorientationrest.herokuapp.com/api](https://robotorientationrest.herokuapp.com/api)
+
